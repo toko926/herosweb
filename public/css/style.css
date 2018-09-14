@@ -188,9 +188,9 @@ body {
         background-color: rgba(34,34,34,0.85);
     }
 
-    .overlay-dark20:before {
+    /*.overlay-dark20:before {
         background-color: rgba(34,34,34,0.2);
-    }
+    }*/
 
     .overlay-dark60:before {
         background-color: rgba(34,34,34,0.6);
@@ -521,8 +521,7 @@ i.right {
     }
 
 .btn-color {
-    background-color: #c7a674;
-    border-color: transparent;
+    border:1px solid #FFF;
     color: #fff;
 }
 
@@ -1736,7 +1735,7 @@ form label.error {
 }
 
     .header.header-prepare {
-        background-color: rgba(51, 51, 51, 0.90);
+        background-color: #1e2440d4;
     }
 
     .header.header-fixed {
@@ -1835,7 +1834,7 @@ form label.error {
 
             .nav-menu ul.nav-menu-inner li a {
                 display: block;
-                color: #fff;
+                color: #c7a674;
                 font-size: 13px;
                 line-height: 1;
                 padding: 43px 12px;
@@ -2836,7 +2835,7 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
 }
 
     .action-box.action-black {
-        background-color: #333;
+        background-color: #1E2440;
     }
 
     .action-box.action-gray {
