@@ -1738,6 +1738,10 @@ form label.error {
         background-color: #1e2440d4;
     }
 
+    .header.header-prepare .nav-menu ul.nav-menu-inner li a{
+        color:#fff;
+    }
+
     .header.header-fixed {
         display: block;
         margin-top: 0 !important;
@@ -1800,6 +1804,7 @@ form label.error {
     }
 
         .logo a img {
+            margin-top:6px;
             width: 100%;
             transition: all 0.3s ease 0s;
             -o-transition: all 0.3s ease 0s;
@@ -1850,7 +1855,7 @@ form label.error {
 }
 
     .nav-menu-icon a {
-        color: #fff;
+        color: #c7a674;
         display: block;
         font-size: 17px;
         padding: 19px 0;
