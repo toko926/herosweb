@@ -109,6 +109,7 @@
         var windHeight = $(window).height();
         if (scrolled > 100) {
             $('.header').addClass('header-prepare');
+            $('.logo').children('img').attr('src', 'img/hs-logo-white-01.png');
         } else {
             $('.header').removeClass('header-prepare');
         }
@@ -119,6 +120,15 @@
             $('.header').removeClass('header-fixed');
         }
     };
+
+    //スクロールでヘッダーロゴを変更
+    // function stickHeader() {
+    //     var scrolled = $(window).scrollTop();
+    //     var windHeight = $(window).height();
+    //     if (scrolled > 100) {
+    //         $('.logo').children('img').attr('src', 'img/hs-logo-white-01.png');
+    //     }
+    // };
 
     // ----------------------------------------------------------------
     // Navigation Menu panel
