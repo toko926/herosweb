@@ -1,7 +1,7 @@
 # node-static-server
 node-static-serverは静的リソースをホストすることを目的とした、シンプルなWebサーバです。  
 静的リソースをディレクトリに配置、コマンド1つでローカル環境にWebサーバを起動し、その動作を確認することができます。  
-Heroku上で動かすこともできるため、デモ環境の構築や複数のメンバー間でのWebデザインの確認などに用いることも可能です。  
+Heroku上で動かすこともできるため、デモ環境の構築や複数のメンバー間でのWebデザインの確認などに用いることも可能です。
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
