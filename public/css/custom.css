@@ -1,0 +1,34 @@
+.visible-pc{
+    display: block;
+}
+.visible-sp{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .visible-pc{
+        display: none;
+    }
+    .visible-sp{
+        display: block;
+    }
+    .intro-fullscreen{
+        background-image: url(../img/hs-top-bg-01-sp.jpg) !important;
+    }
+    #intro{
+        height: 100vh;
+        overflow: scroll;
+        background-color: transparent;
+    }
+    .top_bg_sp{
+        position: fixed;
+        z-index: -1;
+    }
+    .top_bg_sp img{
+        object-fit: contain;
+        width: 100%;
+    }
+    .wrapper > section{
+        background-color: #ffffff;
+    }
+}
