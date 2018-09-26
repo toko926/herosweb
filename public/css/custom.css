@@ -4,7 +4,9 @@
 .visible-sp{
     display: none;
 }
-
+.team-item-img .team-item-detail{
+    overflow: scroll;
+}
 @media screen and (max-width: 768px) {
     .visible-pc{
         display: none;
