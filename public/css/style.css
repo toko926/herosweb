@@ -2978,10 +2978,10 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
 }
 
     .client-logo img {
-        height: 100%;
+        width :70%;
     }
 
-
+#client .owl-item{}
 
 /* Contact Form, Map, contact-info       ||--------------------------- */
 
