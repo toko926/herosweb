@@ -522,7 +522,7 @@ i.right {
 
 .btn-color {
     border:1px solid #FFF;
-    color: #fff;
+    color: #FFF;
 }
 
     .btn-color:hover {
@@ -2984,6 +2984,13 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
 #client .owl-item{}
 
 /* Contact Form, Map, contact-info       ||--------------------------- */
+
+#contact-us {background-color:#1e2440d4;}
+
+#contact-us .btn-color {
+    border:1px solid #FFF;
+    color: #2f313c;
+}
 
 /* form */
 .contact-form textarea {
