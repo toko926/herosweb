@@ -522,7 +522,7 @@ i.right {
 
 .btn-color {
     border:1px solid #FFF;
-    color: #fff;
+    color: #FFF;
 }
 
     .btn-color:hover {
@@ -2038,9 +2038,9 @@ form label.error {
     background-color: #f5f5f5;
     display: inline-block !important;
     font-size: 23px;
-    color: #333;
+    color: #1E2440;
     height: 70px;
-    line-height: 75px;
+    line-height: 70px;
     width: 70px;
     text-align: center;
     border-radius: 50%;
@@ -2978,12 +2978,21 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
 }
 
     .client-logo img {
-        height: 100%;
+        width :70%;
     }
 
-
+#client .owl-item{}
 
 /* Contact Form, Map, contact-info       ||--------------------------- */
+
+#company-info{background-color: #fff;}
+
+#contact-us {background-color:#262733;}
+
+#contact-us .btn-color {
+    border:1px solid #FFF;
+    color: #2f313c;
+}
 
 /* form */
 .contact-form textarea {
@@ -3000,6 +3009,10 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
     -moz-border-radius: 50% !important;
     -webkit-border-radius: 50% !important;
 }
+
+/* company info */
+.location, .hours{margin: 80px 0; }
+
 
 /* map */
 .map {
