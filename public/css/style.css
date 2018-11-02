@@ -2985,7 +2985,9 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
 
 /* Contact Form, Map, contact-info       ||--------------------------- */
 
-#contact-us {background-color:#1e2440d4;}
+#company-info{background-color: #fff;}
+
+#contact-us {background-color:#262733;}
 
 #contact-us .btn-color {
     border:1px solid #FFF;
@@ -3007,6 +3009,10 @@ ul.portfolio-btn-wraper, .portfolio-btn-wraper {
     -moz-border-radius: 50% !important;
     -webkit-border-radius: 50% !important;
 }
+
+/* company info */
+.location, .hours{margin: 80px 0; }
+
 
 /* map */
 .map {
