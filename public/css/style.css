@@ -2395,6 +2395,11 @@ o-flow-hidden {
     .portfolio-grid-fit .portfolio-item {
         width: 100%;
     }
+    .top_bg_sp{width: 100%;}
+}
+
+@media (max-width: 480px) {
+    .top_bg_sp{width: 100%;}
 }
 
 .portfolio-box {
