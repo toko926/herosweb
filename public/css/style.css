@@ -499,7 +499,7 @@ i.right {
 }
 
 .btn-md {
-    padding: 11px 25px !important;
+    padding: 11px 20px !important;
     display: inline-block;
 }
 
@@ -2395,6 +2395,11 @@ o-flow-hidden {
     .portfolio-grid-fit .portfolio-item {
         width: 100%;
     }
+    .top_bg_sp{width: 100%;}
+}
+
+@media (max-width: 480px) {
+    .top_bg_sp{width: 100%;}
 }
 
 .portfolio-box {
